@@ -1,7 +1,7 @@
 body{
     margin: auto;
     width: 700px;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 
@@ -13,6 +13,10 @@ body{
     display: inline-table;
 }
 
+
+
+
+/*=============STYLE LOGIN BOX==================*/
 .login-box{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
@@ -21,7 +25,56 @@ body{
 }
 
 .login-box .col-1-2{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.login-box .col-1-2:nth-child(1){
     border-right: 1px solid gray;
     box-sizing: border-box;
     padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+.continue{
+    color: white;
+    text-decoration: none;
+}
+.continue a{
+    text-decoration: none;
+    color: white;
+}
+.continue li{
+    display: block;
+    margin-bottom: 20px;
+        text-align: center;
+    padding: 10px
+        
+}
+ul.continue li:nth-child(1){
+    background-color: red;
+}
+
+ul.continue li:nth-child(2){
+    background-color: blue;
+}
+
+
+
+
+
+
+/*--============FOOTER STYLES============*/
+
+
+
+
+footer{
+    text-align: center;
 }
