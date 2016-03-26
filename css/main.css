@@ -6,8 +6,22 @@ body{
 
 
 
+
 .col-1-2{
     margin: 0;
     width: 50%;
-    display: inline;
+    display: inline-table;
+}
+
+.login-box{
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.login-box .col-1-2{
+    border-right: 1px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
 }
