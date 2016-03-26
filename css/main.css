@@ -1,0 +1,13 @@
+body{
+    margin: auto;
+    width: 700px;
+    padding-top: 20%;
+}
+
+
+
+.col-1-2{
+    margin: 0;
+    width: 50%;
+    display: inline;
+}
