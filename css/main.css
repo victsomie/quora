@@ -1,7 +1,16 @@
+html{
+    min-height: 100%;
+    background-image: url(/img/quora-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 body{
     margin: auto;
-    width: 700px;
+    width: 600px;
     padding-top: 10%;
+
 }
 
 
