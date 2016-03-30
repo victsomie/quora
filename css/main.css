@@ -1,16 +1,19 @@
 html{
     min-height: 100%;
     background-image: url(/img/quora-bg.png);
-    background-size: cover;
-    background-position: center;
+    background-size: 1800px;
+    background-position: top;
+    vertical-align: middle;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
 }
 
 body{
     margin: auto;
-    width: 600px;
-    margin-top: 10%;
-    background-color: white;
+    width: 700px;
+    margin-top: 40px;
+
 }
 .col-1-2{
     margin: 0;
@@ -18,12 +21,48 @@ body{
     display: inline-table;
 }
 
+
+
+/*-==========Typography=====================*/
+*{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px
+}
+
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
+
+
+
+/*=============Style top-Headline=====================*/
+
+.top-headline{
+    text-align: center;
+    margin-bottom: 20px
+}
+.top-headline h1{
+    color: darkred;
+    font-size: 60px;
+}
 /*=============STYLE LOGIN BOX==================*/
 .login-box{
     box-sizing: border-box;
     padding: 10px 0 10px 0;
     border: 1px solid gray;
     border-radius: 5px;
+    background-color: white;
 }
 
 .login-box .col-1-2{
@@ -59,8 +98,18 @@ ul.continue li:nth-child(2){
     background-color: blue;
 }
 
-
-
+.input-full-width{
+    width: 100%;
+    border-radius: 5px;
+}
+input{
+    margin-bottom: 5px;
+}
+.input-bg{
+    color:;
+    background-color:whitesmoke;
+    line-height: 24px;
+}
 
 
 
@@ -71,4 +120,9 @@ ul.continue li:nth-child(2){
 
 footer{
     text-align: center;
+     margin-top: 10px;
+}
+footer a{
+    color: darkslategray;
+    text-decoration: none;
 }
