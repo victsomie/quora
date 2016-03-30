@@ -22,9 +22,6 @@ body{
     display: inline-table;
 }
 
-
-
-
 /*=============STYLE LOGIN BOX==================*/
 .login-box{
     box-sizing: border-box;
@@ -42,14 +39,6 @@ body{
     box-sizing: border-box;
     padding: 20px;
 }
-
-
-
-
-
-
-
-
 
 .continue{
     color: white;
