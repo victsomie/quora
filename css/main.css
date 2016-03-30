@@ -9,13 +9,9 @@ html{
 body{
     margin: auto;
     width: 600px;
-    padding-top: 10%;
-
+    margin-top: 10%;
+    background-color: white;
 }
-
-
-
-
 .col-1-2{
     margin: 0;
     width: 50%;
