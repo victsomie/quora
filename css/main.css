@@ -18,7 +18,7 @@ body{
 .col-1-2{
     margin: 0;
     width: 50%;
-    display: inline-table;
+    display: inline-block;
 }
 
 
@@ -77,6 +77,7 @@ p{
 
 .continue{
     color: white;
+    font-weight: 700;
     text-decoration: none;
 }
 .continue a{
@@ -98,12 +99,31 @@ ul.continue li:nth-child(2){
     background-color: blue;
 }
 
+
+/*=========Style form=======*/
+form{
+
+}
+form .title{
+    padding-bottom: 14px
+}
+form .login-btn{
+    float: right;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+form a{
+    text-decoration: none;
+    color: black
+}
+
 .input-full-width{
     width: 100%;
     border-radius: 5px;
 }
 input{
     margin-bottom: 5px;
+    box-shadow: none;
 }
 .input-bg{
     color:;
@@ -113,8 +133,8 @@ input{
 
 
 
-/*--============FOOTER STYLES============*/
 
+/*--============FOOTER STYLES============*/
 
 
 
@@ -125,4 +145,8 @@ footer{
 footer a{
     color: darkslategray;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
